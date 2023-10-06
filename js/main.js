@@ -1,4 +1,6 @@
 $(document).ready(function(){
+	
+	$(".overlay-only").hide();
 
 	$('#card-text').trumbowyg();
 
