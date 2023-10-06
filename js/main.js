@@ -59,9 +59,9 @@ $(document).ready(function(){
         //Change the monster type
         let monsterType = $('#monster-type').val();
         if (cardTypeSelected == "Spell"){
-            $('.card-type-1').html("Spell Card");
+            $('.card-type-1').html("[SPELL CARD]");
         } else if (cardTypeSelected == "Trap"){
-            $('.card-type-1').html("Trap Card");
+            $('.card-type-1').html("[TRAP CARD]");
         } else{
             $('.card-type-1').html(monsterType);
         }
