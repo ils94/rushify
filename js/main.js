@@ -143,6 +143,11 @@ $(document).ready(function(){
     //Change card image
     $('#image-url').change(function(){
         $(".card-image").attr("src", $("#image-url").val());
+		
+	$('#image-overlay-url').change(function(){
+        $(".card-image-overlay").attr("src", $("#image-overlay-url").val());
+    });
+		
     });
     $('.trumbowyg-editor').keyup(function(){
         //Change card text
